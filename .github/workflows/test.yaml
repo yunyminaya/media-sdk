@@ -13,6 +13,8 @@
 # limitations under the License.
 
 name: Test
+permissions:
+  contents: read
 
 on:
   workflow_dispatch:
